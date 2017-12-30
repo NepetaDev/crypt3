@@ -3,9 +3,11 @@ defmodule Crypt3 do
   @moduledoc """
   Documentation for Crypt3.
   """
+  app = Mix.Project.config[:app]
   
   def init do
-    :ok = :erlang.load_nif('./priv/nif', 0)
+    path = :filename.join(:code.priv_dir(unquote(app)), 'nif')
+    :ok = :erlang.load_nif(path, 0)
   end
 
   @doc """
