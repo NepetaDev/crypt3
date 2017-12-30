@@ -12,7 +12,7 @@ defmodule Crypt3.Mixfile do
     [
       app: :crypt3,
       compilers: [:nif] ++ Mix.compilers,
-      version: "1.0.3",
+      version: "1.0.4",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       build_embedded: true,
