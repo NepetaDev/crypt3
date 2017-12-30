@@ -15,6 +15,7 @@ defmodule Crypt3.Mixfile do
       version: "1.0.3",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
+      build_embedded: true,
       deps: deps(),
       package: package(),
       description: description(),
