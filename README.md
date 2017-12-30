@@ -10,7 +10,7 @@ by adding `crypt3` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:crypt3, "~> 1.0.1"}
+    {:crypt3, "~> 1.0.3"}
   ]
 end
 ```

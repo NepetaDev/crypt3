@@ -15,4 +15,4 @@ priv/nif.so: clean
 		c_src/nif.c
 
 clean:
-	@$(RM) -r priv/*
+	@$(RM) -r priv/nif.so
